@@ -1,11 +1,13 @@
 # cakephp-fixture-importer
 
-# installation
+CakePHP Plugin that extends the capability of a Fixture to load not only structure but already.
+
+## installation
 
     composer require aircargobook/cakephp-fixture-importer
 
 
-# usage
+## usage
 
 Load the Trait into your existing fixture.
 
