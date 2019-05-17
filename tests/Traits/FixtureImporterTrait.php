@@ -1,5 +1,5 @@
 <?php
-namespace Aircargobook\CakephpFixtureImporter\Traits;
+namespace Aircargobook\CakephpFixtureImporter\Test\Traits;
 
 use Cake\Datasource\ConnectionManager;
 use Cake\ORM\TableRegistry;
