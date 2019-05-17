@@ -1,0 +1,27 @@
+{
+    "name": "aircargobook/cakephp-fixture-importer",
+    "description": "CakePHP3 FixtureImporter plugin",
+    "homepage": "https://www.aircargobook.com",
+    "type": "cakephp-plugin",
+    "require": {
+        "cakephp/cakephp": "~3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JM",
+            "email": "open-source@aircargobook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Aircargobook\\CakephpFixtureImporter\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Aircargobook\\CakephpFixtureImporter\\Test\\": "tests"
+      }
+    }
+}
