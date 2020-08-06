@@ -23,7 +23,7 @@ trait FixtureImportTrait
         $_model = TableRegistry::get($this->import['table'], ['connection' => $_sourceConnection]);
 
         $jsonFields = [];
-        $_schema = $_model->schema();
+        $_schema = $_model->getSchema();
         foreach ($_schema->typeMap() as $field => $type) {
             if ($type === 'json') {
                 $jsonFields[] = $field;
@@ -34,7 +34,7 @@ trait FixtureImportTrait
             $_model->setRequestingCompany('system');
         }
 
-        $results = $_model->find('all')->hydrate(false);
+        $results = $_model->find('all')->enableHydration(false);
 
         foreach ($results as $result) {
             foreach ($jsonFields as $jsonField) {
