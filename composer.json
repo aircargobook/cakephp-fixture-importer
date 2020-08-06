@@ -2,6 +2,7 @@
     "name": "aircargobook/cakephp-fixture-importer",
     "description": "CakePHP3 FixtureImporter plugin",
     "homepage": "https://www.aircargobook.com",
+    "version": "1.0.1",
     "type": "cakephp-plugin",
     "require": {
         "cakephp/cakephp": "~4.0"
