@@ -4,7 +4,7 @@
     "homepage": "https://www.aircargobook.com",
     "type": "cakephp-plugin",
     "require": {
-        "cakephp/cakephp": "~3.0"
+        "cakephp/cakephp": "~4.0"
     },
     "license": "MIT",
     "authors": [
